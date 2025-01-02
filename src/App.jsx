@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="mx-auto my-4 border-2 border-stone-400 rounded-sm w-[100%] md:w-2/3 lg:w-2/4">
       <div className="py-4 bg-stone-200 flex flex-col items-center">
-        <h1 className="text-xl my-6 font-bold">React To-Do</h1>
+        <h1 className="text-2xl my-6 font-bold">React To-Do</h1>
         <InputButton addNewToDoItem={handleNewToDoItem} />
       </div>
       <hr class="h-px border-stone-500 border-1" />
